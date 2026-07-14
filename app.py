@@ -9,7 +9,7 @@ CORS(app)
 client = Groq()
 
 MODEL_NAME = os.environ.get("MODEL_NAME", "llama-3.3-70b-versatile")
-DEFAULT_SYSTEM_PROMPT = "You are a helpful personal assistant for all users. Be friendly, concise, and practical."
+DEFAULT_SYSTEM_PROMPT = "You are a helpful personal assistant. Be friendly, concise, and practical."
 
 
 @app.route("/")
